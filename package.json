@@ -2,7 +2,7 @@
   "name": "koa-redux-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
     "webserver": "node api/server.js",
     "dev": "node_modules/.bin/webpack-dev-server",
@@ -16,7 +16,7 @@
     "lint": "eslint . --ext .js --ext .jsx",
     "deploy": "NODE_ENV=production webpack -p"
   },
-  "author": "",
+  "author": "Patrick Eifler",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.13.2",
