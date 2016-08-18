@@ -1,5 +1,7 @@
 node_modules
-dist
+tmp
+app/tmp
+app/prod
 .jscsrc
 .DS_Store
 npm-debug.log
